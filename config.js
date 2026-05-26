@@ -1,28 +1,28 @@
 window.config = {
   "property": {
-    "streetAddress": "114 Smith Road ",
-    "city": "Kemptville",
-    "cityStateZip": "Kemptville, Ontario  K0G 1T0",
-    "heroSubtitle": "Prepare to be transformed by this stunning Detached that represents the pinnacle of residential design. With 4 carefully curated bedrooms, 4 luxurious bathrooms, and an expansive 2200 sq ft floor plan, this home is more than just a living space – it's a lifestyle statement. Every inch has been thoughtfully crafted to provide an exceptional living experience that balances aesthetic appeal with practical functionality, creating a harmonious environment that adapts to your most discerning needs.",
-    "backgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763578619337-24-web-or-mls-20.jpg"
+    "streetAddress": "15 Oakhaven Rd",
+    "city": "Brampton",
+    "cityStateZip": "Brampton, Ontario L6P 2Y3",
+    "heroSubtitle": "Immerse yourself in the ultimate urban sanctuary – a breathtaking 5-bedroom Detached that redefines contemporary living. Boasting 5 beautifully appointed bathrooms and a generous 3801 sq ft of intelligently designed space, this home is a testament to modern architectural excellence. From the moment you step inside, you'll be captivated by the seamless flow, abundant natural light, and premium finishes that create an atmosphere of refined elegance and unparalleled comfort.",
+    "backgroundImageUrl": "https://salesgeniusportal.s3.ca-central-1.amazonaws.com/istreet-realty-group/marketing-requests/open-house/1779762962611-300.jpg"
   },
   "realtor": {
-    "fullName": "Nicole Garrett",
+    "fullName": "Rick Roccasalva",
     "title": "REALTOR®",
-    "email": "nicole@driscollpeca.com",
-    "phone": "613-258-2222",
-    "photoUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/upload-1487654.jpg",
-    "bio": "With years of real estate service under our belt, we can assure you that you are in good hands with our team. We are committed to listening to our clients, focusing on their needs and using keen negotiating skills to ensure a successful transaction for both buyers and sellers. With deep local knowledge and a true passion for real estate, we're committed to helping you find the perfect place to call home. Let's make your next move an exciting and rewarding one — we can't wait to work with you!",
+    "phone": "416 616 9369",
+    "email": "rick@istreetrealty.ca",
+    "photoUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1761767184484-biorick.jpg",
+    "bio": "At iStreet Realty Group, we are built on integrity, insight, and innovation. We combine decades of real estate expertise with cutting-edge technology to deliver unmatched support, transparency, and results for our clients. With over 40 years of hands-on real estate experience and extensive corporate backgrounds, our managing partners provide a balanced and strategic approach to Residential, Commercial, and Investment properties. We prioritize clear communication and use the latest market insights to guide every client toward success—whether buying, selling, or investing. At iStreet Realty Inc., we’re more than real estate experts—we’re your trusted partner in building your future.",
     "social": {
-      "facebook": "https://www.facebook.com/driscollpecateam",
-      "instagram": "https://www.instagram.com/driscollpecateam",
-      "website": "https://www.driscollpeca.com"
+      "facebook": "https://www.facebook.com/iStreetRealty",
+      "instagram": "https://www.instagram.com/istreetrealtygroup/",
+      "website": "https://www.homelifepartnersrealty.com/"
     }
   },
   "brokerage": {
-    "name": "REAL Broker LTD",
-    "logoUrl": "https://yl-clients-prod.s3.amazonaws.com/1c2ff89a-b0f6-4582-ac27-3e2203d89e67117213106_brokeredby_logo_ontario.png",
-    "address": "218 Brant Avenue Brantford ON N3T 3H9"
+    "name": "iStreet Realty Group - HomeLife Partners",
+    "logoUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/upload-Untitled-design-2.jpg",
+    "address": "3850 Steeles Avenue W. Unit 6, Woodbridge, Ontario"
   },
   "openHouse": {
     "eventDate": "",
@@ -30,89 +30,87 @@ window.config = {
             {
                   "icon": "fas fa-home",
                   "text": "Full Property Listing",
-                  "url": "https://www.realtor.ca/real-estate/29099863/114-smith-road-north-grenville-803-north-grenville-twp-kemptville-south"
+                  "url": "https://www.realtor.ca/real-estate/29802174/15-oakhaven-road-brampton-bram-east"
             },
             {
                   "icon": "fas fa-vr-cardboard",
                   "text": "3D Virtual Tour",
-                  "url": "https://youtube.com/shorts/uwuZc_yULGI"
+                  "url": "https://tour.homeontour.com/hMbPiaB1j?branded=1"
             },
             {
                   "icon": "fas fa-video",
                   "text": "Video Tour",
-                  "url": "https://youtube.com/shorts/uwuZc_yULGI"
-            },
-            {
-                  "icon": "fas fa-file-pdf",
-                  "text": "Feature Website ",
-                  "url": "https://sites.ground2airmedia.com/sites/xabmljb/unbranded"
+                  "url": "https://www.youtube.com/watch?v=36IEk0ZAhwE"
             }
       ]
   },
   "meta": {
-    "pageTitlePrefix": "🏡 Nicole Garrett Open House",
+    "pageTitlePrefix": "🏡 Rick Roccasalva Open House",
     "navBrandLogoText": "OPEN HOUSE",
-    "privacyPolicyLink": "https://driscollpeca.com/privacy.html"
+    "privacyPolicyLink": "https://istreetrealty.ca/privacy-policy/"
   },
   "settings": {
-    "primaryColor": "#00224a",
-    "secondaryColor": "#05C3F9",
-    "accentColor": "#05C3F9",
+   "primaryColor": "",
+    "secondaryColor": "",
+    "accentColor": "",
     "neutralColor": "",
     "adminWebhookUrl": "https://n8n.salesgenius.co/webhook/openhouseupdate",
     "visitorWebhookUrl": "https://n8n.salesgenius.co/webhook/openhouse",
     "confettiColors": [
-      "#A78BFA",
-      "#C4B5FD",
-      "#E9D5FF",
-      "#8B5CF6",
-      "#7C3AED"
+      "#6187a7",
+      "#f0e9d6",
+      "#ffffff",
+      "#83a363",
+      "#d9ac68"
     ]
   },
   "modalQuestions": [
-    {
-      "id": "agent_status",
-      "questionText": "Are you currently exploring homes with a real estate agent?",
-      "options": [
-        { "value": "committed", "text": "Yes, I'm committed to an agent." },
-        { "value": "not_committed", "text": "No, I'm not committed to an agent." },
-        { "value": "gathering_info", "text": "Just gathering information at this stage." }
-      ]
-    },
-    {
-      "id": "interest_level",
-      "questionText": "How interested are you in this Detached?",
-      "options": [
-        { "value": "very_interested", "text": "Very interested, actively looking." },
-        { "value": "somewhat_interested", "text": "Somewhat interested, keeping options open." },
-        { "value": "just_browsing", "text": "Just browsing for now." }
-      ]
-    },
-    {
-      "id": "neighborhood_engagement",
-      "questionText": "How do you usually enjoy the neighborhood?",
-      "options": [
-        { "value": "resident_explorer", "text": "I live here and love exploring locally." },
-        { "value": "considering_move", "text": "I'm considering moving to this area." },
-        { "value": "just_visiting", "text": "Just visiting for the open house." }
-      ]
-    },
-    {
-      "id": "feature_attraction",
-      "questionText": "What feature attracted you to this home?",
-      "options": [
-        { "value": "design_layout", "text": "The design and layout." },
-        { "value": "location_neighborhood", "text": "The location and neighborhood." },
-        { "value": "home_price", "text": "The price of the home." }
-      ]
-    }
-  ],
+  {
+    "id": "q_auto_1750445840887_0",
+    "questionText": "What's your current situation?",
+    "options": [
+      { "value": "I own my home", "text": "I own my home" },
+      { "value": "I rent", "text": "I rent" },
+      { "value": "Live with family/friends", "text": "Live with family/friends" },
+      { "value": "Between homes", "text": "Between homes" }
+    ]
+  },
+  {
+    "id": "q_auto_1750445840887_1",
+    "questionText": "What are you looking to do?",
+    "options": [
+      { "value": "Buy a home", "text": "Buy a home" },
+      { "value": "Sell and buy", "text": "Sell and buy" },
+      { "value": "Rent a place", "text": "Rent a place" },
+      { "value": "Invest in property", "text": "Invest in property" }
+    ]
+  },
+  {
+    "id": "q_auto_1750445840887_2",
+    "questionText": "When are you planning to move?",
+    "options": [
+      { "value": "ASAP", "text": "ASAP" },
+      { "value": "3-6 months", "text": "3-6 months" },
+      { "value": "6-12 months", "text": "6-12 months" },
+      { "value": "12+ months", "text": "12+ months" }
+    ]
+  },
+  {
+    "id": "agent_status",
+    "questionText": "Are you currently exploring homes with a real estate agent?",
+    "options": [
+      { "value": "committed", "text": "Yes, I'm committed to an agent." },
+      { "value": "not_committed", "text": "No, I'm not committed to an agent." },
+      { "value": "gathering_info", "text": "Just gathering information at this stage." }
+    ]
+  }
+],
   "deploymentInfo": {
-    "repoId": "1100037723",
-    "repoName": "Open-House-138",
-    "tag": "Open House 114 Smith Road ",
+    "repoId": "1249760285",
+    "repoName": "Open-House-710",
+    "crmLeadParsingEmail": "rick.roccasalva@followupboss.me",
+    "tag": "Open House 15 Oakhaven Rd",
     "netlifyUrl": "https://services.leadconnectorhq.com/hooks/KxSrsX5ZH2ZttFjyt9hW/webhook-trigger/723v7Nh8JC60wCn3aRmV",
-    "crmLeadParsingEmail": "",
-    "sgApiKey": ""
+    "sgApiKey": "api_78cab2d8c3a43b799acf6a8339343720"
   }
 };
