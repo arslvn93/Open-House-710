@@ -1,4 +1,4 @@
-window.config = {
+const config = {
   "property": {
     "streetAddress": "15 Oakhaven Rd",
     "city": "Brampton",
@@ -10,7 +10,7 @@ window.config = {
     "fullName": "Rick Roccasalva",
     "title": "REALTOR®",
     "phone": "416 616 9369",
-    "email": "rick@istreetrealty.ca",
+    "email": "rick@roccasalva.co",
     "photoUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1761767184484-biorick.jpg",
     "bio": "At iStreet Realty Group, we are built on integrity, insight, and innovation. We combine decades of real estate expertise with cutting-edge technology to deliver unmatched support, transparency, and results for our clients. With over 40 years of hands-on real estate experience and extensive corporate backgrounds, our managing partners provide a balanced and strategic approach to Residential, Commercial, and Investment properties. We prioritize clear communication and use the latest market insights to guide every client toward success—whether buying, selling, or investing. At iStreet Realty Inc., we’re more than real estate experts—we’re your trusted partner in building your future.",
     "social": {
@@ -21,28 +21,25 @@ window.config = {
   },
   "brokerage": {
     "name": "iStreet Realty Group - HomeLife Partners",
-    "logoUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/upload-Untitled-design-2.jpg",
+    "logoUrl": "https://salesgeniusportal.s3.ca-central-1.amazonaws.com/TeamUploads/upload-Rickslogo.png",
     "address": "3850 Steeles Avenue W. Unit 6, Woodbridge, Ontario"
   },
   "openHouse": {
     "eventDate": "",
     "bundleItems": [
-            {
-                  "icon": "fas fa-home",
-                  "text": "Full Property Listing",
-                  "url": "https://www.realtor.ca/real-estate/29802174/15-oakhaven-road-brampton-bram-east"
-            },
-            {
-                  "icon": "fas fa-vr-cardboard",
-                  "text": "3D Virtual Tour",
-                  "url": "https://tour.homeontour.com/hMbPiaB1j?branded=1"
-            },
-            {
-                  "icon": "fas fa-video",
-                  "text": "Video Tour",
-                  "url": "https://www.youtube.com/watch?v=36IEk0ZAhwE"
-            }
-      ]
+      {
+        "icon": "fas fa-home",
+        "text": "Full Property Listing"
+      },
+      {
+        "icon": "fas fa-vr-cardboard",
+        "text": "3D Virtual Tour"
+      },
+      {
+        "icon": "fas fa-video",
+        "text": "Video Tour"
+      }
+    ]
   },
   "meta": {
     "pageTitlePrefix": "🏡 Rick Roccasalva Open House",
@@ -50,7 +47,7 @@ window.config = {
     "privacyPolicyLink": "https://istreetrealty.ca/privacy-policy/"
   },
   "settings": {
-   "primaryColor": "",
+    "primaryColor": "",
     "secondaryColor": "",
     "accentColor": "",
     "neutralColor": "",
@@ -65,46 +62,91 @@ window.config = {
     ]
   },
   "modalQuestions": [
-  {
-    "id": "q_auto_1750445840887_0",
-    "questionText": "What's your current situation?",
-    "options": [
-      { "value": "I own my home", "text": "I own my home" },
-      { "value": "I rent", "text": "I rent" },
-      { "value": "Live with family/friends", "text": "Live with family/friends" },
-      { "value": "Between homes", "text": "Between homes" }
-    ]
-  },
-  {
-    "id": "q_auto_1750445840887_1",
-    "questionText": "What are you looking to do?",
-    "options": [
-      { "value": "Buy a home", "text": "Buy a home" },
-      { "value": "Sell and buy", "text": "Sell and buy" },
-      { "value": "Rent a place", "text": "Rent a place" },
-      { "value": "Invest in property", "text": "Invest in property" }
-    ]
-  },
-  {
-    "id": "q_auto_1750445840887_2",
-    "questionText": "When are you planning to move?",
-    "options": [
-      { "value": "ASAP", "text": "ASAP" },
-      { "value": "3-6 months", "text": "3-6 months" },
-      { "value": "6-12 months", "text": "6-12 months" },
-      { "value": "12+ months", "text": "12+ months" }
-    ]
-  },
-  {
-    "id": "agent_status",
-    "questionText": "Are you currently exploring homes with a real estate agent?",
-    "options": [
-      { "value": "committed", "text": "Yes, I'm committed to an agent." },
-      { "value": "not_committed", "text": "No, I'm not committed to an agent." },
-      { "value": "gathering_info", "text": "Just gathering information at this stage." }
-    ]
-  }
-],
+    {
+      "id": "q_auto_1750445840887_0",
+      "questionText": "What's your current situation?",
+      "options": [
+        {
+          "value": "I own my home",
+          "text": "I own my home"
+        },
+        {
+          "value": "I rent",
+          "text": "I rent"
+        },
+        {
+          "value": "Live with family/friends",
+          "text": "Live with family/friends"
+        },
+        {
+          "value": "Between homes",
+          "text": "Between homes"
+        }
+      ]
+    },
+    {
+      "id": "q_auto_1750445840887_1",
+      "questionText": "What are you looking to do?",
+      "options": [
+        {
+          "value": "Buy a home",
+          "text": "Buy a home"
+        },
+        {
+          "value": "Sell and buy",
+          "text": "Sell and buy"
+        },
+        {
+          "value": "Rent a place",
+          "text": "Rent a place"
+        },
+        {
+          "value": "Invest in property",
+          "text": "Invest in property"
+        }
+      ]
+    },
+    {
+      "id": "q_auto_1750445840887_2",
+      "questionText": "When are you planning to move?",
+      "options": [
+        {
+          "value": "ASAP",
+          "text": "ASAP"
+        },
+        {
+          "value": "3-6 months",
+          "text": "3-6 months"
+        },
+        {
+          "value": "6-12 months",
+          "text": "6-12 months"
+        },
+        {
+          "value": "12+ months",
+          "text": "12+ months"
+        }
+      ]
+    },
+    {
+      "id": "agent_status",
+      "questionText": "Are you currently exploring homes with a real estate agent?",
+      "options": [
+        {
+          "value": "committed",
+          "text": "Yes, I'm committed to an agent."
+        },
+        {
+          "value": "not_committed",
+          "text": "No, I'm not committed to an agent."
+        },
+        {
+          "value": "gathering_info",
+          "text": "Just gathering information at this stage."
+        }
+      ]
+    }
+  ],
   "deploymentInfo": {
     "repoId": "1249760285",
     "repoName": "Open-House-710",
