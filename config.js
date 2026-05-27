@@ -20,7 +20,7 @@ const config = {
     }
   },
   "brokerage": {
-    "name": "iStreet Realty Group - HomeLife Partners",
+    "name": "Roccasalva & Co - HomeLife Partners Realty Corp.",
     "logoUrl": "https://salesgeniusportal.s3.ca-central-1.amazonaws.com/TeamUploads/upload-Rickslogo.png",
     "address": "3850 Steeles Avenue W. Unit 6, Woodbridge, Ontario"
   },
