@@ -11,8 +11,8 @@ const config = {
     "title": "REALTOR®",
     "phone": "416 616 9369",
     "email": "rick@roccasalva.co",
-    "photoUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1761767184484-biorick.jpg",
-    "bio": "At Roccasalva & Co, we are built on integrity, insight, and innovation. We combine decades of real estate expertise with cutting-edge technology to deliver unmatched support, transparency, and results for our clients. With over 40 years of hands-on real estate experience and extensive corporate backgrounds, our managing partners provide a balanced and strategic approach to Residential, Commercial, and Investment properties. We prioritize clear communication and use the latest market insights to guide every client toward success—whether buying, selling, or investing. At iStreet Realty Inc., we’re more than real estate experts—we’re your trusted partner in building your future.",
+    "photoUrl": "https://salesgeniusportal.s3.ca-central-1.amazonaws.com/TeamUploads/upload-4F255BBD-7E78-4D67-9BFB-675A94665BAF.png",
+    "bio": "At Roccasalva & Co, we are built on integrity, insight, and innovation. We combine decades of real estate expertise with cutting-edge technology to deliver unmatched support, transparency, and results for our clients. With over 40 years of hands-on real estate experience and extensive corporate backgrounds, our managing partners provide a balanced and strategic approach to Residential, Commercial, and Investment properties. We prioritize clear communication and use the latest market insights to guide every client toward success—whether buying, selling, or investing. At Roccasalva & Co., we’re more than real estate experts—we’re your trusted partner in building your future.",
     "social": {
       "facebook": "https://www.facebook.com/iStreetRealty",
       "instagram": "https://www.instagram.com/roccasalva.co/",
